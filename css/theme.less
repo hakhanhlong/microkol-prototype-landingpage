@@ -1,0 +1,51 @@
+@import "components/_variables";
+@import "components/_header";
+@import "components/_button";
+
+body{
+  background: @primary-background;
+  font-family: @body-copy;
+  font-size: @base-font-size;
+  line-height: @base-line-height;
+  color: @primary-text;
+}
+
+.icon > svg {
+  width: 3rem;
+  height: 3rem;
+}
+
+.img-skewed-left {
+  -webkit-perspective-origin: left center;
+  perspective-origin: left center;
+}
+
+.img-skewed {
+  -webkit-perspective: 1500px;
+  perspective: 1500px;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+.img-skewed-left .img-skewed-item {
+  -webkit-transform: rotateY(-35deg) rotateX(15deg);
+  transform: rotateY(-35deg) rotateX(15deg);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.screenshot {
+  border-radius: .625rem;
+  box-shadow: 25px 60px 125px -25px rgba(80,102,144,.1), 16px 40px 75px -40px rgba(0,0,0,.2);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
