@@ -2,5 +2,15 @@
 	"index": {
 		"pageTitle": "Home",
 		"layout": "_layout"
-	}	
+	},
+	"policy": {
+		"pageTitle": "Policy",
+		"layout": "_layout"
+	},
+	"privacy": {
+		"pageTitle": "Privacy",
+		"layout": "_layout"
+	}
+	
+	
 }
