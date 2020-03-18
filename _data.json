@@ -1,14 +1,14 @@
 {
 	"index": {
-		"pageTitle": "Home",
+		"pageTitle": "Microkols - Nền tảng Microkols tối ưu tại Việt Nam",
 		"layout": "_layout"
 	},
 	"policy": {
-		"pageTitle": "Policy",
+		"pageTitle": "Microkols - Giới thiệu",
 		"layout": "_layout"
 	},
 	"privacy": {
-		"pageTitle": "Privacy",
+		"pageTitle": "Microkols - Chính sách & Quy định",
 		"layout": "_layout"
 	}
 	
